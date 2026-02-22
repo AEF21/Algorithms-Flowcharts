@@ -151,7 +151,7 @@ F-->G([End])
 ---
 
 ## 5. Simple Interest Calculator
-```
+
 Create an algorithm and flowchart for a program that calculates simple interest using the formula **SI = (P × R × T) / 100**
 - **P = Principal** → original amount of money
 - **R = Rate of Interest** → percentage per year
@@ -166,17 +166,15 @@ Start
     SI= (P'R'T)/100
     Print SI
 End
-```
+``` 
 ### ✔ Flowchart
 ```mermaid
 flowchart TB
     A([Start])
-    A--> B[Enter P, the principal amount]
-    A--> C[Enter R, the rate of interest]
-    A--> D[Enter T, the time period]
-    D--> E{SI=(P'R'T)/100}
-    E--> F[Display SI]
-    G([End])
+    A--> B[Enter P, R, T]
+    B--> C{SI= P*R*T /100}
+    C--> D[Display SI]
+    D-->E([End])
 ```
 ---
 
