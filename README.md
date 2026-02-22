@@ -166,9 +166,7 @@ Start
     SI= (P'R'T)/100
     Print SI
 End
-``` 
---- 
-
+```
 ### ✔ Flowchart
 ```mermaid
 flowchart TB
